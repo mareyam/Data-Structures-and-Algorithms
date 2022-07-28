@@ -31,7 +31,7 @@ class HelloWorld {
         }
         if(head == null || head.next == null) {
             System.out.println("head is null 2");
-            return null;
+            return null;;
         }
         System.out.println("before asign");
         ListNode curr = head;

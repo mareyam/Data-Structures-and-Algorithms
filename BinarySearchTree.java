@@ -3,7 +3,7 @@ public class BinarySearchTree {
 	private TreeNode root;
 	
 	private class TreeNode {
-		private int data; // Generic type
+		private int data; 
 		private TreeNode left;
 		private TreeNode right;
 		
@@ -48,7 +48,7 @@ public class BinarySearchTree {
 	}
 	
 	public TreeNode search(TreeNode root, int key) {
-		if(root == null || root.data == key) { // base case 
+		if(root == null || root.data == key) {  
 			return root;
 		}
 		
@@ -72,9 +72,9 @@ public class BinarySearchTree {
 		System.out.println();
 		
 		if(null != bst.search(10)) {
-			System.out.println("Key found !!!");
+			System.out.println("found");
 		} else {
-			System.out.println("Key not found !!!");
+			System.out.println("not found");
 		}
 	}
 }

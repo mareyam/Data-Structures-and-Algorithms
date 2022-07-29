@@ -1,22 +1,22 @@
 public class BinarySearch {
 
-    public int binarySearch(int[] nums, int key) {
+    public int binarySearch(int[] num, int key) {
         int low = 0;
-        int high = nums.length - 1;
+        int high = num.length - 1;
 
         while (low <= high) {
             int mid = (high + low) / 2;
 
-            if (nums[mid] == key) {
+            if (num[mid] == key) {
                 return mid;
             }
-            if (key < nums[mid]) {
+            if (key < num[mid]) {
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-        return -1;
+        return 0;
     }
 
     public static void main(String[] args) {

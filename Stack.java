@@ -5,8 +5,8 @@ public class Stack {
 	private int length;
 	
 	private class ListNode {
-		private int data; // Can be a generic type
-		private ListNode next; // Reference to next ListNode in list
+		private int data; 
+		private ListNode next; 
 		
 		public ListNode(int data) {
 			this.data = data;

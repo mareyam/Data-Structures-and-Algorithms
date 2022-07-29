@@ -328,11 +328,7 @@ public class SinglyLinkedList {
 
 	public static void main(String[] args) {
 		SinglyLinkedList sll = new SinglyLinkedList();
-		// sll.createALoopInLinkedList();
-		// System.out.println(sll.containsLoop());
-		// System.out.println(sll.startNodeInALoop().data);
-		// sll.removeLoop();
-
+		
 		sll.insertLast(5);
 		sll.insertLast(7);
 		sll.insertLast(9);

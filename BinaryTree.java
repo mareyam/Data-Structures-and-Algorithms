@@ -1,7 +1,4 @@
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
 
 public class BinaryTree {
 	
@@ -10,7 +7,7 @@ public class BinaryTree {
 	private class TreeNode {
 		private TreeNode left;
 		private TreeNode right;
-		private int data; // Can be any generic type
+		private int data; 
 		
 		public TreeNode(int data) {
 			this.data = data;
